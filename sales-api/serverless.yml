@@ -7,5 +7,7 @@ provider:
   region: ap-northeast-2
 
 functions:
-  function1:
-    handler: index.handler
+  api:
+    handler: handler.handler
+    events:
+      - httpApi: '*'
