@@ -8,6 +8,8 @@ exports.handler = async (event) => {
     MessageAttributeProductId: MessageAttributeProductId.Value,
     MessageAttributeProductCnt: "10",
     MessageAttributeFactoryId: MessageAttributeFactoryId.Value,
+    MessageAttributeRequester: "TEAM-F",
+
 
   }
   console.log(payload)
