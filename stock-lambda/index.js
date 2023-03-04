@@ -9,6 +9,7 @@ exports.handler = async (event) => {
     MessageAttributeProductCnt: "10",
     MessageAttributeFactoryId: MessageAttributeFactoryId.Value,
     MessageAttributeRequester: "TEAM-F",
+    CallbackUrl: process.env.CallbackUrl
 
 
   }
