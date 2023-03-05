@@ -162,7 +162,8 @@
 
 #Trouble Shooting
 
-![trouble1 - cloudformation에 스택이 쌓여서 생긴 오류.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52c09f22-f427-4e53-8b69-070858d6fe57/trouble1_-_cloudformation%E1%84%8B%E1%85%A6_%E1%84%89%E1%85%B3%E1%84%90%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%B5_%E1%84%8A%E1%85%A1%E1%87%82%E1%84%8B%E1%85%A7%E1%84%89%E1%85%A5_%E1%84%89%E1%85%A2%E1%86%BC%E1%84%80%E1%85%B5%E1%86%AB_%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B2.png)
+<img width="946" alt="trouble1 - cloudformation에 스택이 쌓여서 생긴 오류" src="https://user-images.githubusercontent.com/119268657/222943637-804a7a26-b3a0-4105-913a-c0efdf17fc87.png">
+
 
 	deploy를 진행하다가 만난 에러이다. 코드에는 문제가 없었고, 다른 분이 deploy를 해보면 제대로 배포가 되었다.
 	알고보니 deploy를 진행하다가 중간에 취소한 상황 때문에 cloudeformation에 스택이 쌓여서 생긴 오류였다.
