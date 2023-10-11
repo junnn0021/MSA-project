@@ -54,3 +54,4 @@ Sales API 를 통해 요청을 받은 서버가 데이터베이스에서 재고 
 <img src="https://img.shields.io/badge/Express-000000?style=stylefor-the-badge&logo=Express&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/Serverless-FD5750?style=stylefor-the-badge&logo=Serverless&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=stylefor-the-badge&logo=Postman&logoColor=FAFAFA"/>
