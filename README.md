@@ -48,8 +48,7 @@ Sales API 를 통해 요청을 받은 서버가 데이터베이스에서 재고 
 <br>
 
 ## Environment
-<img src="https://img.shields.io/badge/AWS-232F3E?style=stylefor-the-badge&logo=Amazon AWS&logoColor=FAFAFA"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=stylefor-the-badge&logo=JavaScript&logoColor=000000"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=stylefor-the-badge&logo=Amazon AWS&logoColor=FAFAFA"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=stylefor-the-badge&logo=JavaScript&logoColor=000000"/>
 <img src="https://img.shields.io/badge/Express-000000?style=stylefor-the-badge&logo=Express&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/Serverless-FD5750?style=stylefor-the-badge&logo=Serverless&logoColor=FAFAFA"/>
