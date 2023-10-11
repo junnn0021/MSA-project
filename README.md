@@ -52,11 +52,3 @@ Sales API 를 통해 요청을 받은 서버가 데이터베이스에서 재고 
 <img src="https://img.shields.io/badge/Express-000000?style=stylefor-the-badge&logo=Express&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/Serverless-FD5750?style=stylefor-the-badge&logo=Serverless&logoColor=FAFAFA"/>
-<br>
-
-	이러한 경험으로 앞으로는 단순히 장점에만 집중하지 않고 폭넓게 바라봐야겠다는 생각이 들었다.
-
-
-	많은 것을 배웠지만 아직도 서버리스 아키텍처에 대한 더 깊은 이해가 필요하다는 것을 느꼈고,특히 마이크로서비스 아키텍쳐를 구성하고 관리하는 것에 대해 더 많은 학습이 필요다고 생각들었다.
-
-	이번 프로젝트를 통해 쌓은 경혐과 지식은 앞으로 서버리스 아키텍쳐를 구축하고 관리하는 데 큰 도움이 될 것 같다.
