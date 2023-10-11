@@ -1,3 +1,75 @@
+## Team F
+
+이준석 : [junnn0021](https://github.com/junnn0021) | 박민혁 : [Park-Seaweed](https://github.com/Park-Seaweed) | 이혜정 : [hyezzang](https://github.com/hyezzang) | 
+ --- | --- | --- | 
+
+- Duration : 2022.12.23~23.12.27
+<br>
+
+## Requirement
+
+#### 요구사항 1 : 재고부족으로 인한 구매실패에 대한 조치
+Sales API 를 통해 요청을 받은 서버가 데이터베이스에서 재고 상황을 확인합니다.
+재고가 있다면 감소시키고 응답으로 판매완료 내용을 전달합니다.
+재고가 없는 경우 공장에 주문을 진행합니다
+재고가 없다는 내용을 담은 메세지 페이로드가 주제별로 생성됩니다.
+메세지가 느슨하게 연결된 시스템을 통해 처리될 수 있도록 따로 보관됩니다.
+
+#### 요구사항 2 : 메세지 누락 상황에 대한 조치
+빈번한 요청으로 메세지 누락이 발생합니다.
+메세지가 처리되지 않은 경우 메세지들을 체계적으로 관리할 다른 처리 공간을 생성해야합니다.
+메시지 처리 보관 리소스와 처리되지 않은 메세지 처리 리소스가 연결되어야합니다.
+
+#### 요구사항 3 : Legacy 시스템(Factory → Warehouse) 성능문제에 대한 조치
+안정적으로 이벤트가 전달 될 수 있는 시스템을 구축해야합니다.
+메세지를 소비하는 리소스를 통해 Factory API가 호출됩니다.
+수신된 메세지에 의해 트리거가 된 컴퓨팅 리소스가 상품 재고를 증가시킵니다.
+
+<br>
+
+## Summary
+우리 페이지는 **도서 구매 예약 시스템**을 운영합니다.<p>사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.
+
+서버는 **Docker image를 이용하여 K8s를 구축**했습니다.
+
+데이터베이스는 **GCP를 이용하여 구축**했습니다.
+
+(현 프로젝트는 제공받은 Petclinic 코드를 일부 수정하여 진행했습니다.)
+
+<br>
+
+## User Flow
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/d665cb98-ed5d-4883-b7ab-16f719fbde96)
+
+<br>
+
+## Architecture
+
+![image](https://github.com/junnn0021/book-reservation-k8s/assets/119108967/ff699c5b-d883-4641-861c-37392320b74a)
+- 아키텍처 구현 과정 : [Notion](https://www.notion.so/Project_Docker-K8s-df3fec7282fb4ad2883eaececfec8687)
+
+<br>
+
+## Environment
+<!--<div align=center>-->
+<img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/> <img src="https://img.shields.io/badge/Docker-2496ED?stylefor-the-badge&logo=Docker&logoColor=FAFAFA"/> 
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?stylefor-the-badge&logo=Kubernetes&logoColor=FAFAFA"/> 
+<img src="https://img.shields.io/badge/BigQuery-669DF6?stylefor-the-badge&logo=Google BigQuery&logoColor=FAFAFA"/> 
+<img src="https://img.shields.io/badge/Looker-4285F4?stylefor-the-badge&logo=Looker&logoColor=FAFAFA"/> 
+<img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
+<img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
+
+<!--</div>-->
+<br>
+
+## Prerequisites
+
+아래 주어진 과정을 실행해야 합니다.
+
+
 ## 👏 프로젝트 소개
 
 ### <노티드>는 온라인으로 도너츠를 판매합니다.
